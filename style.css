@@ -284,6 +284,24 @@ footer{
     height: 47vh;
 }
 
+.footer-inner{
+display: flex;
+flex-wrap: wrap;
+padding: 60px 140px;
+}
+.foot1-head1{
+    font-size: 12px;
+    margin-top: 30px;
+    color: white;
+}
+
+.foot1-head2{
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+
+
+}
 
 @media only screen and (max-width: 633px){
     .sec1-left-head1 {
