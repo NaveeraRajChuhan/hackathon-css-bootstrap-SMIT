@@ -15,11 +15,12 @@
 /* ----------------------------------------------------------sec1------------------------------ */
 .sec1{
     width: 100%;
-    height: 90vh;
+    height: auto;
     /* background-color: blue; */
     background-color: #dad0d0;
 
     display: flex;
+    flex-wrap: wrap;
     padding: 100px 80px;
     justify-content: space-between;
 }
@@ -113,15 +114,137 @@ height: 400px;
 
 
 
-.sec-5{
+/* .sec-5{
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
+margin-bottom: 300px;
+
+}
+.card{
+    width: 300px;
+height: 300px;
+}
+
+.card-img-top{
+    width: 100px;
+    height: 100px;
+
+} */
+
+.card-container {
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    border: none;
+    padding: 20px;
+    width: 320px;
+    margin-bottom: 100px;
+}
+
+
+
+.card .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+}
+
+.card h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* ----------------------------------------------------------sec5------------------------------ */
+
+
+
+.sec6{
+    display: flex;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 633px){
+    .sec1-left-head1 {
+        /* color: #333333; */
+        font-size: 46px;
+    }
+    .sec1-left-head2 {
+        /* color: #4cAF50; */
+        font-size: 46px;
+    }
+
+
+    .sec1-right {
+        width: 400px;
+        height: 300px;
+        /* padding-top: 40px; */
+    }
+}
+
+    @media only screen and (max-width: 460px){
+        .sec1{
+            padding: 50px 30px;
+        }
+        .sec1-left-head1 {
+            /* color: #333333; */
+            font-size: 36px;
+        }
+        .sec1-left-head2 {
+            /* color: #4cAF50; */
+            font-size: 36px;
+        }
+    
+    
+        .sec1-right {
+            width: 300px;
+            height: 200px;
+            /* padding-top: 40px; */
+        }
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 240.card3){
+
+
+
+}
 
 
 
