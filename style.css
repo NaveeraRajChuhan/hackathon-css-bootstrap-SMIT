@@ -21,6 +21,13 @@ border: none;
 color: #ffffff;
 
 }
+
+.nav-btn:hover{
+    background-color:#114913 ;
+    cursor: pointer;
+}
+
+
 .navbar-left{
 
 }
@@ -67,6 +74,40 @@ margin-top: 20px;
 color: rgb(68, 64, 64);
 
 }
+
+
+
+.typewriter{
+    overflow: hidden;
+    border-right: .15em solid orange; 
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
 .sec1-btn{
     background-color:#4cAF50 ;
     color: white;
@@ -76,6 +117,13 @@ color: rgb(68, 64, 64);
     margin-top: 30px;
     border-radius: 5px;
 }
+
+.sec1-btn:hover{
+    background-color:#114913 ;
+    cursor: pointer;
+
+}
+
 .sec1-right{
 width: 500px;
 height: 400px;
@@ -162,6 +210,7 @@ height: 400px;
 
 .sec3{
     display: flex;
+    flex-wrap: wrap;
     /* background-color: aquamarine; */
     margin-bottom: 30px;
     justify-content: space-between;
@@ -349,10 +398,18 @@ ul li{
 @media only screen and (max-width: 767px){
 
 .footer2{
-    padding-left: 50px;
+    padding-left: 0px;
 }
-.footer2{
-    padding-left: 30px;
+.footer3{
+    padding-left: 0px;
+}
+.footer4{
+    padding-left: 0px;
+
+}
+
+.typewriter{
+    font-size: 12px;
 }
 
 }
@@ -370,7 +427,9 @@ ul li{
         /* color: #4cAF50; */
         font-size: 46px;
     }
-
+    .typewriter{
+        font-size: 8px;
+    }
 
     .sec1-right {
         width: 400px;
@@ -409,7 +468,9 @@ ul li{
             /* color: #4cAF50; */
             font-size: 36px;
         }
-    
+        .typewriter{
+           display: none;
+        }
     
         .sec1-right {
             width: 300px;
@@ -421,7 +482,10 @@ ul li{
         .footer-img {
             width: 150px;
         }
-
+.footer-placeholder{
+    width: 200px;
+    height: 30px;
+}
 }
 
 
@@ -429,8 +493,14 @@ ul li{
 
 
 
-@media only screen and (max-width: 240.card3){
-
+@media only screen and (max-width: 240px){
+    .typewriter{
+        display: none;
+    }
+    .footer-placeholder{
+        width: 100px;
+        height: 20px;
+    }
 
 
 }
