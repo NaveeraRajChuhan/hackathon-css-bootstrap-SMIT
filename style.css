@@ -448,6 +448,28 @@ ul li{
     border: none;
 }
 
+
+
+
+
+
+
+@media only screen and (max-width: 1420px){
+    .footer-placeholder{
+width: 150px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 767px){
 
 .footer2{
